@@ -1,4 +1,5 @@
 import HeaderComponent from '../components/HeaderComponent';
+import './BlogPage.css';
 
 function BlogPage() {
   const handleSubmit = (e) => {
