@@ -1,6 +1,17 @@
-#menu{
-  h2{
-    background-color: blue;
-    color:white;
-  }
+#menu h2 {
+  background-color: #1e3a8a; /* Azul más elegante */
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+#menu h2:hover {
+  background-color: #2563eb; /* Cambio suave al pasar el mouse */
+  cursor: pointer;
 }
