@@ -1,19 +1,22 @@
-import HeaderComponent from "../components/HeaderComponent"
+import HeaderComponent from "../components/HeaderComponent";
+import './HomePage.css';
 
 function HomePage() {
-  const saySomething = () =>{
+  const saySomething = () => {
     console.log("Di Algo");
     alert("Ahora");
-  }
+  };
+
   return (
     <>
-      <HeaderComponent></HeaderComponent>
-      <div>HomePage</div>
-      <hr />
-      <button onClick={saySomething}>Pulsar Click</button>
+      <HeaderComponent />
+      <div className="homePage">
+        <h2>HomePage</h2>
+        <hr />
+        <button onClick={saySomething}>Pulsar Click</button>
+      </div>
     </>
-    
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
